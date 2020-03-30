@@ -26,6 +26,7 @@ namespace Arboretum_Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,10 +42,12 @@ namespace Arboretum_Web
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapRazorPages();
             });
         }
     }
