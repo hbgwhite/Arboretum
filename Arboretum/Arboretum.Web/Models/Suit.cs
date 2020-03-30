@@ -1,4 +1,4 @@
-﻿namespace Arboretum_Web.Models
+﻿namespace Arboretum.Web.Models
 {
     public enum Suit
     {

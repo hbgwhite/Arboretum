@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Arboretum_Web": {
+    "Arboretum.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

@@ -1,6 +1,6 @@
 using System;
 
-namespace Arboretum_Web
+namespace Arboretum.Web
 {
     public class WeatherForecast
     {

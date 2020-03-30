@@ -1,5 +1,5 @@
-using Arboretum_Web.Areas.Identity;
-using Arboretum_Web.Areas.Identity.Data;
+using Arboretum.Web.Areas.Identity;
+using Arboretum.Web.Areas.Identity.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 [assembly: HostingStartup(typeof(IdentityHostingStartup))]
 
-namespace Arboretum_Web.Areas.Identity
+namespace Arboretum.Web.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup
     {

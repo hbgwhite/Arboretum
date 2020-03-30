@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Arboretum_Web.Migrations
+namespace Arboretum.Web.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

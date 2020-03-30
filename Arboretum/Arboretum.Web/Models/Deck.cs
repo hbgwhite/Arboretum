@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Arboretum_Web.Models
+namespace Arboretum.Web.Models
 {
     public class Deck
     {

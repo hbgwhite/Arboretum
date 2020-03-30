@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Arboretum_Web.Areas.Identity.Data
+namespace Arboretum.Web.Areas.Identity.Data
 {
     public class IdentityDataContext : IdentityDbContext<IdentityUser>
     {

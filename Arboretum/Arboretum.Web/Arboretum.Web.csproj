@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Arboretum_Web</RootNamespace>
+    <RootNamespace>Arboretum.Web</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

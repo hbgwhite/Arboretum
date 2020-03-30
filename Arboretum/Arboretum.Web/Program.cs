@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Arboretum_Web
+namespace Arboretum.Web
 {
     public class Program
     {
