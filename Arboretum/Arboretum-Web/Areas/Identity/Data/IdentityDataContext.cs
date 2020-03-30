@@ -7,9 +7,7 @@ namespace Arboretum_Web.Areas.Identity.Data
     public class IdentityDataContext : IdentityDbContext<IdentityUser>
     {
         public IdentityDataContext(DbContextOptions<IdentityDataContext> options)
-            : base(options)
-        {
-        }
+            : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
